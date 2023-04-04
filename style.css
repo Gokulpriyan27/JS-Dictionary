@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Playfair+Display&family=Poppins&family=Roboto+Slab:wght@200;300;400&family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    background-image: linear-gradient(to right bottom, #e0f0f4, #b1d6ee, #97b7ea, #9c92da, #b165b5);
+    font-family: 'Roboto Slab', serif;
+}
+
+body>h1{
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.container{
+    min-width: 50%;
+    width: auto;
+    display: flex;
+    min-height: 50vh;
+    font-size: 20px;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+
+   
+}
+.wrapper{
+    width: 80%;
+    margin:25px auto 0;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    margin-top: 5vh;
+}
+
+.search-field{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.form-control{
+    font-weight:700;
+    font-size: 20px;
+}
+
+.spinners{
+    display: flex;
+    gap: 20px;
+    display: none;
+    margin: 0 auto;
+}
+
+.alert-danger{
+    display: none;
+}
+
+.title{
+    font-weight: 500;
+    color:#ffc107;
+
+}
+
+#message{
+    display: none;
+}
+
+.found{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.meanings,.definition{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
