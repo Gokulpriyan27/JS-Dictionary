@@ -8,8 +8,8 @@ Implemented Concepts:
   
   <li>Javascript - async/await , fetch</li>
   <li>CSS - Flexbox , Bootstrap for styling, Google fonts</li>
-  <li></li>
+  <li>check the live site here: https://js-dictionary.netlify.app</li>
 
 </ul>
 
-check the live site here: https://js-dictionary.netlify.app
+
